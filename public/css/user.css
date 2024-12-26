@@ -1,0 +1,151 @@
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #fbfbfb;
+    padding: 5px;
+}
+
+#myBtn:hover {
+    background-color: #16b5ea;
+}
+
+h3.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.card-body {
+    margin-top: 40px;
+    padding: 0;
+}
+
+.product-item {
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-item .bg-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.product-item .bg-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover .bg-image img {
+    transform: scale(1.1);
+}
+
+.product-item .card-body {
+    text-align: center;
+    transition:
+        transform 0.3s ease,
+        color 0.3s ease;
+}
+
+.product-item:hover .card-body {
+    transform: translateY(-5px);
+    color: #333;
+    margin-bottom: 0;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #0f0f0f;
+}
+
+.card-text del {
+    font-size: 0.9rem;
+    display: block;
+}
+
+.card-text b {
+    color: #000;
+    font-size: 1.1rem;
+    display: block;
+    margin-top: 5px;
+}
+
+.btn-link {
+    margin: 0 10px;
+    color: #fff;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+}
+
+.btn-link:hover {
+    color: #fff;
+}
+
+.navbar .form-control {
+    transition: all 0.3s ease;
+}
+
+.navbar .form-control:focus {
+    border-color: #80bdff;
+}
+
+.navbar .input-group {
+    margin: 0 20px;
+}
+
+.navbar .btn {
+    transition: transform 0.2s ease;
+    margin-top: 0;
+    background-color: #f0297c;
+}
+
+.navbar .btn:hover {
+    transform: scale(1.05);
+}
+
+.dropdown-menu {
+    overflow: hidden;
+}
+
+.dropdown-item {
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #8ac2fa;
+}
+
+/* trang chi tiết đơn hàng */
+.product-img-detail {
+    width: 100%;
+    padding: 10px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.product-description{
+    padding: 10px;
+}
